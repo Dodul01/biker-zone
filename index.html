@@ -223,7 +223,7 @@
       <div class=" max-w-screen-xl mx-auto mt-10">
         <!--Cards Container Starts Here-->
         <h1 class="text-center md:text-5xl text-3xl font-bold my-5">latest Bike Collection</h1>
-        <div class="grid md:grid-cols-3 grid-cols-1">
+        <div class="grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1">
 
           <!--Parchese Card One Starts here-->
           <div class="card bg-base-100 p-3 m-2 shadow-xl">
@@ -287,10 +287,10 @@
         <h2 class="text-3xl md:text-5xl font-bold text-center">Happy <span class="text-[#E76F51]">Clients Says</span>
         </h2>
         <!--Clients Cards Container Starts Here-->
-        <div class="grid md:grid-cols-3 grid-cols-1 m-10 gap-6 md:my-10">
+        <div class="grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 m-10 gap-6 md:my-10">
 
-          <!--Card One Starts Here-->
-          <div class="card bg-base-100 p-10 md:max-w-[360px] border border-solid border-black">
+          <!--Card one Starts Here-->
+          <div class="card bg-base-100 p-10 max-w-[360px] mx-auto border border-solid border-black">
             <figure class="px-10 pt-10">
               <img src="./images/others/user-1.png" alt="user" class="rounded-xl" />
             </figure>
@@ -310,11 +310,11 @@
               <h3 class="font-bold">Banker</h3>
             </div>
           </div>
-          <!--Card One Ends Here-->
+          <!--Card one Ends Here-->
 
 
-          <!--Card One Starts Here-->
-          <div class="card bg-base-100 p-10 max-w-[360px] border border-solid border-black">
+          <!--Card Two Starts Here-->
+          <div class="card bg-base-100 p-10 max-w-[360px] mx-auto border border-solid border-black">
             <figure class="px-10 pt-10">
               <img src="./images/others/user-2.png" alt="user" class="rounded-xl" />
             </figure>
@@ -334,10 +334,10 @@
               <h3 class="font-bold">Banker</h3>
             </div>
           </div>
-          <!--Card One Ends Here-->
+          <!--Card Two Ends Here-->
 
-          <!--Card One Starts Here-->
-          <div class="card bg-base-100 p-10 max-w-[360px] border border-solid border-black">
+          <!--Card Three Starts Here-->
+          <div class="card bg-base-100 p-10 max-w-[360px] mx-auto border border-solid border-black">
             <figure class="px-10 pt-10">
               <img src="./images/others/user-3.png" alt="user" class="rounded-xl" />
             </figure>
@@ -357,7 +357,7 @@
               <h3 class="font-bold">Banker</h3>
             </div>
           </div>
-          <!--Card One Ends Here-->
+          <!--Card Three Ends Here-->
         </div>
         <!--Clients Cards Container Ends Here-->
       </div>
@@ -368,14 +368,15 @@
     <section>
       <div class="max-w-screen-xl mx-auto">
         <h1 class="font-bold text-center md:text-5xl">Frequently Asked Questions</h1>
-        <div class="flex items-center justify-between md:flex-row flex-col m-4">
+        <div class="flex items-center justify-between gap-10 lg:flex-row flex-col m-4">
+
           <div>
-            <img class="md:w-[500px] w-full" src="./images/others/faq.png" alt="faq-img">
+            <img class="md:flex-1 lg:w-[400px] w-full" src="./images/others/faq.png" alt="faq-img">
           </div>
 
           <!--Faq part-->
           <div>
-            <div class="join join-vertical md:w-[700px] w-full">
+            <div class="join join-vertical md:flex-1 lg:w-[700px] w-full">
               <div class="collapse collapse-arrow join-item border border-base-300">
                 <input type="radio" name="my-accordion-4" checked="checked" />
                 <div class="collapse-title text-xl font-medium">
@@ -385,7 +386,7 @@
                   <p>
                     Safety First! Always obey the rules of the road. Obey all traffic signals, signs, and laws. Get in
                     the mindset of “driving” your bike—not just “riding” your bike. This will help you be a more focused
-                    and legally compliant bike rider. 
+                    and legally compliant bike rider.
                   </p>
                 </div>
               </div>
@@ -396,7 +397,8 @@
                   <p>How can I tell if my helmet is old and I need a new one?</p>
                 </div>
                 <div class="collapse-content">
-                  <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ipsa similique corporis, voluptate dolorem iusto nemo.</p>
+                  <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ipsa similique corporis, voluptate
+                    dolorem iusto nemo.</p>
                 </div>
               </div>
 
@@ -406,7 +408,8 @@
                   <p>My bike has been in storage is it safe to ride?</p>
                 </div>
                 <div class="collapse-content">
-                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus, aut. Corrupti sit rerum beatae nam labore quaerat?</p>
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus, aut. Corrupti sit rerum beatae
+                    nam labore quaerat?</p>
                 </div>
               </div>
 
@@ -429,7 +432,35 @@
   <!--Main Section Ends Here-->
 
   <!--Footer Section Starts Here-->
-  <footer></footer>
+
+  <footer class="footer p-10 bg-neutral text-neutral-content">
+    <div class="max-w-screen-xl mx-auto">
+      <div class="flex items-center justify-between  md:flex-row flex-col">
+
+        <div>
+          <div>
+            <p>Download Now</p>
+            <p>License</p>
+          </div>
+          <ul class="flex items-center justify-between">
+            <li><a>About</a></li>
+            <li><a>Features</a></li>
+            <li><a>Pricing</a></li>
+            <li><a>Careers</a></li>
+            <li><a>Help</a></li>
+            <li><a>Privacy Policy </a></li>
+          </ul>
+          <span>© 2020 bike. All rights reserved</span>
+        </div>
+
+        <div class="md:ml-60 mt-10">
+          <span class="footer-title">Get The App</span>
+          <img class="w-[200px]" src="./images/others/android.png" alt="">
+          <img class="w-[200px]" src="./images/others/ios.png" alt="">
+        </div>
+      </div>
+    </div>
+  </footer>
   <!--Footer Section Ends Here-->
 </body>
 
